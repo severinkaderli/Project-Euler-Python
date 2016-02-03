@@ -9,13 +9,13 @@ def is_palindrome(n):
     return n == n[::-1]
 
 def get_largest_palindrome_product(max_number):
-    """Returns the largest palindrome product."""
+    """Returns the largest palindrome product"""
     largest_product = 0
     for i in range(max_number, 1, -1):
         if i * max_number <= largest_product:
             break;
-        for j in range(max_number, i-1, -1):
-            product = i*j
+        for j in range(max_number, i - 1, -1):
+            product = i * j
             if product <= largest_product:
                 break;
             if is_palindrome(product):
