@@ -23,4 +23,4 @@ def get_largest_palindrome_product(max_number):
     return largest_product
 
 if __name__ == "__main__":
-    print(get_largest_palindrome_product(9999))
+    print(get_largest_palindrome_product(999))
