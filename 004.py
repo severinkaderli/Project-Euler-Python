@@ -8,7 +8,7 @@ def is_palindrome(n):
     n = str(n)
     return n == n[::-1]
 
-def get_largest_palindrome_product(max_number):
+def get_largest_palindrome_product(max_number = 999):
     """Returns the largest palindrome product"""
     largest_product = 0
     for i in range(max_number, 1, -1):
@@ -23,4 +23,4 @@ def get_largest_palindrome_product(max_number):
     return largest_product
 
 if __name__ == "__main__":
-    print(get_largest_palindrome_product(999))
+    print(get_largest_palindrome_product())
