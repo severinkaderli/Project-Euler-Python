@@ -21,4 +21,4 @@ def lcmm(*args):
     return reduce(lcm, args)  
 
 if __name__ == "__main__":
-    print(lcmm(*range(1, 21)))
+    print(lcmm(*range(11, 21)))

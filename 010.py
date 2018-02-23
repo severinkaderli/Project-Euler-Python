@@ -15,7 +15,7 @@ def get_prime_numbers(n):
 
     return primes
 
-def get_prime_sum(n = 2000000):
+def get_prime_sum(n):
     """Calculate the sum of all prime numbers below n."""
     return sum(get_prime_numbers(n))
 
